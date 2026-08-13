@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Mi Proyecto Web</title>
+    
+    <!-- AQUÍ EMPIEZA EL CSS: Esto le da diseño y color a tu página -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Este es el menú de navegación */
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #1abc9c; /* Cambia de color al pasar el ratón */
+        }
+        .contenedor {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .boton {
+            background-color: #1abc9c;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- EDITAR AQUÍ: Título de tu sitio -->
+        <h1>Mi Primer Sitio Web Complejo</h1>
+    </header>
+
+    <nav>
+        <!-- Estos enlaces conectan tus dos "ventanas" (páginas) -->
+        <a href="index.html">Página Principal</a>
+        <a href="sobre-mi.html">Sobre Mí</a>
+    </nav>
+
+    <div class="contenedor">
+        <h2>¡Bienvenido a la página principal!</h2>
+        <p>Esta vez hemos añadido estilos (CSS) para que se vea mucho mejor. También tenemos un menú arriba para cambiar de ventana.</p>
+        
+        <!-- EDITAR AQUÍ: Puedes cambiar la URL por otra imagen de internet -->
+        <img src="https://picsum.photos/400/200" alt="Imagen aleatoria de prueba" style="border-radius: 10px; margin-bottom: 20px;">
+        
+        <br>
+        
+        <!-- Este es un botón funcional que lleva a tu segunda página -->
+        <a href="sobre-mi.html" class="boton">Conoce más sobre mí</a>
+    </div>
+
+</body>
+</html>
